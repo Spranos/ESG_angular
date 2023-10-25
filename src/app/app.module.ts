@@ -11,6 +11,7 @@ import { PostListComponent } from './post-list/post-list.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
+import { EsgDataComponent } from './esg-data/esg-data.component';
 
 
 Chart.register(...registerables);
@@ -24,6 +25,7 @@ Chart.register(...registerables);
     NavbarComponent,
     FooterComponent,
     ContentComponent,
+    EsgDataComponent,
   ],
   imports: [
     BrowserModule,

@@ -5,12 +5,14 @@ import { PostListComponent } from './post-list/post-list.component';
 import { ContentComponent } from './content/content.component';
 import { loginComponent } from './login/login.component';
 import { registerComponent } from './register/register.component';
+import { EsgDataComponent } from './esg-data/esg-data.component';
 
 
 
 const routes: Routes = [
   
   {path:'', component: ContentComponent},
+  {path:'test', component: EsgDataComponent},
   // 巢狀router
   {path:'post', component:PostComponent,
   children:[

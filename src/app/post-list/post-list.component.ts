@@ -28,9 +28,9 @@ export class PostListComponent implements OnInit{
     });
   }
 
-  getChart(){
+  getChart(types:string){
     var myChart=new Chart("myChart", {
-      type: 'bar',
+      type: 'pie',
       data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [{
